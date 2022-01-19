@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/daryl/Desktop/CPS1011_tutorials/CPS2004Q3/main.cpp
+iostream
+-
+myuint.cpp
+C:/Users/daryl/Desktop/CPS1011_tutorials/CPS2004Q3/myuint.cpp
+
+C:/Users/daryl/Desktop/CPS1011_tutorials/CPS2004Q3/myuint.cpp
+myuint.h
+C:/Users/daryl/Desktop/CPS1011_tutorials/CPS2004Q3/myuint.h
+algorithm
+-
+
+C:/Users/daryl/Desktop/CPS1011_tutorials/CPS2004Q3/myuint.h
+string
+-
+cmath
+-
+cstdio
+-
+vector
+-
+

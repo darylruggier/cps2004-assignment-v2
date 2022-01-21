@@ -4,6 +4,7 @@
 #include <cmath>
 #include <cstdio>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 template<size_t T>

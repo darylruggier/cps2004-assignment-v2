@@ -134,7 +134,7 @@ myuint<T> operator*(myuint<T> a, int b) { // multiplies together myuint a and b.
     //Step 2: Carry out the integer multiplication between the a.bits vector conversion and b.
     //Step 3: Convert the result of the multiplication into binary and place it into the vector.
     //Step 4: return the myuint
-    int a_convertedToInt = binToDecimal(a.bits);
+    int a_convertedToInt = binToDecimal(a);
 
     int ans = 0, count = 0;
     while (a_convertedToInt)

@@ -1,10 +1,10 @@
 package com.q2;
 
-import platform.Platform;
-import order.Crypto;
-import order.Order;
-import user.Admin;
-import user.User;
+import com.q2.platform.Platform;
+import com.q2.order.Crypto;
+import com.q2.order.Order;
+import com.q2.user.Admin;
+import com.q2.user.User;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,7 +31,7 @@ public class Main {
 
         //Future goals: Implement further Abstraction and Modularity.
         for (Order orders : platform.order_book.order_queue) {
-            System.out.println("Order ID: " + orders.order_id + "\nMade by user: " + orders.user + "\nOrder Type: " + orders.orderType + "\nOrder Sub-type: " + orders.orderSubType);
+            System.out.println("Order ID: " + orders.order_id + "\nMade by com.q2.user: " + orders.user + "\nOrder Type: " + orders.orderType + "\nOrder Sub-type: " + orders.orderSubType);
             platform.processOrder(orders);
         }
         //I believe that this function should be run as a background process (i.e. concurrency using threads & Runnable).

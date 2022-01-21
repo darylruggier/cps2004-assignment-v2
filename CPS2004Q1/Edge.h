@@ -5,7 +5,6 @@
 #include <iostream>
 #include <vector>
 #include "Vertex.h"
-#include "Graph.h"
 
 template<typename T>
 class Edge {
